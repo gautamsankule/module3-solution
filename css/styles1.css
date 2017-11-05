@@ -1,4 +1,4 @@
- *{
+  *{
 	box-sizing: border-box;
 }
 
@@ -8,8 +8,8 @@ h1 {
 }
 
 body {
-	background-image: url("background.jpg");
-	background-color: #FEF5CA;
+	
+	background-color: #FF00FF;
 
 }
 
@@ -24,6 +24,7 @@ p {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	padding: 20px;
+    border-radius: 0;
 }
 
 .container-fluid {
@@ -38,7 +39,8 @@ p {
 
 section {
 	border:	1px solid black;
-	background-color: #00FF99;
+	background-color: grey;
+	color: black;
 	width: 100%;
 	height: auto;
 	font-family: Helvetica;
@@ -58,7 +60,7 @@ section {
 	margin-bottom: 0;
 	margin-top: 0;
 	padding: 5px;
-	background-color: #FFFF00;
+	background-color: aqua;
 }
 
 #beef {
@@ -72,7 +74,7 @@ section {
 	margin-bottom: 0;
 	margin-top: 0;
 	padding: 5px;
-	background-color: #FF1439;
+	background-color: green;
 }
 
 #sushi {
@@ -108,14 +110,14 @@ section {
 .navbar-brand {
   font-size: 2em;
   border: 0 0 10px 10px;
-  color: #FFFFFF;
+  color: #333300;
    text-align: left;
 }
 
 #header-nav {
   border: 0;
-  background-color: #FC5F06;
-  color: #FFFFFF;
+  background-color: #b3ffe7;
+  color: #333300;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
@@ -127,23 +129,24 @@ section {
 }
 
 .nav-header {
-  background-color: #FFFFFF;
+  background-color: black;
 }
 
 .nav-brand {
-  color: #FFFFFF;
+  color: black;
   font-size: 1.5em;
 }
 
 #nav-list {
-  color: white;
+  color: black;
 }
 
 hr {
-  border-color: white;
+  border-color: black;
+  width: 50%;
 }
 
 .item {
-  color: white;
+  color: black;
   font-size: 1.2em;
 }
